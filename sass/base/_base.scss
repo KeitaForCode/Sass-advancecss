@@ -1,0 +1,22 @@
+/* universal selector */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*
+ root styling
+*/
+
+html{
+    //This defined what 1rem is
+    font-size: 62.5%;
+}
+
+/* styling the body*/
+body{
+    box-sizing: border-box;
+}
